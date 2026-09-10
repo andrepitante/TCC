@@ -1,0 +1,30 @@
+# Ambiente virtual
+.venv/
+
+# Python
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Credenciais / variáveis locais
+.env
+
+# Banco / backups
+*.sql.gz
+*.backup
+*.dump
+
+# Dados brutos grandes
+data/meteorologia/
+data/*.csv
+data/*.xlsx
+
+# Modelos treinados, se ficarem grandes
+*.keras
+*.h5
+
+# Arquivos temporários
+*.tmp
+*.log
