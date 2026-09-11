@@ -18,66 +18,46 @@ engine = create_engine(
 
 
 # ============================================================
-# LER INCÊNDIOS DAS 5 RODOVIAS
+# FAIXAS ANALÍTICAS DAS RODOVIAS
 # ============================================================
 
-sql = """
-SELECT
-    id,
-    rodovia,
-    km,
-    municipio,
-    latitude,
-    longitude,
-    data_hora_inicio,
-    geom
-FROM tcc.incendios_raw
-WHERE
-    REPLACE(rodovia, '-', '') IN (
-        'SP021',
-        'SP280',
-        'SP300',
-        'SP330',
-        'SP348'
-    )
-    AND km IS NOT NULL
-    AND data_hora_inicio IS NOT NULL;
-"""
-
-print("=" * 75)
-print("SEGMENTAÇÃO DOS INCÊNDIOS")
-print("=" * 75)
-
-print("\nLendo incêndios...")
-
-df = pd.read_sql(sql, engine)
-
-print(f"Registros lidos: {len(df):,}")
-
-
-# ============================================================
-# NORMALIZAR RODOVIA
-# ============================================================
-
-df["rodovia"] = (
-    df["rodovia"]
-    .str.replace("-", "", regex=False)
-    .str.strip()
-)
-
-mapa = {
-    "SP021": "SP-021",
-    "SP280": "SP-280",
-    "SP300": "SP-300",
-    "SP330": "SP-330",
-    "SP348": "SP-348",
+faixas_rodovias = {
+    "SP-021": (0, 135),
+    "SP-280": (10, 320),
+    "SP-300": (60, 670),
+    "SP-330": (10, 450),
+    "SP-348": (10, 175),
 }
 
-df["rodovia"] = df["rodovia"].map(mapa)
+
+print("=" * 75)
+print("SEGMENTAÇÃO DOS INCÊNDIOS POR TRECHOS DE 5 KM")
+print("=" * 75)
 
 
 # ============================================================
-# LER SEGMENTOS
+# VERIFICA TABELA DESTINO
+# ============================================================
+
+with engine.connect() as conn:
+    total_destino = conn.execute(
+        text("""
+            SELECT COUNT(*)
+            FROM tcc.incendios_segmentados;
+        """)
+    ).scalar()
+
+print(f"\nRegistros existentes em incendios_segmentados: {total_destino:,}")
+
+if total_destino > 0:
+    raise RuntimeError(
+        "A tabela tcc.incendios_segmentados já possui registros. "
+        "Processo interrompido para evitar duplicação."
+    )
+
+
+# ============================================================
+# CARREGA SEGMENTOS
 # ============================================================
 
 segmentos = pd.read_sql(
@@ -89,195 +69,291 @@ segmentos = pd.read_sql(
         km_inicio,
         km_fim
     FROM tcc.segmentos_rodovias
-    ORDER BY rodovia, numero_segmento;
+    ORDER BY
+        rodovia,
+        numero_segmento;
     """,
     engine
 )
 
-
-# ============================================================
-# ASSOCIAR INCÊNDIO AO SEGMENTO
-# ============================================================
-
-resultado = []
-
-for _, incendio in df.iterrows():
-
-    candidatos = segmentos[
-        (segmentos["rodovia"] == incendio["rodovia"])
-        & (segmentos["km_inicio"] <= incendio["km"])
-        & (segmentos["km_fim"] > incendio["km"])
-    ]
-
-    # Caso especial:
-    # se o KM for exatamente igual ao km_fim do último segmento
-    if candidatos.empty:
-
-        candidatos = segmentos[
-            (segmentos["rodovia"] == incendio["rodovia"])
-            & (segmentos["km_fim"] == incendio["km"])
-        ]
-
-    if candidatos.empty:
-        resultado.append({
-            "id_incendio": incendio["id"],
-            "segmento_id": None,
-            "rodovia": incendio["rodovia"],
-            "km": incendio["km"],
-            "data_hora_inicio": incendio["data_hora_inicio"],
-            "data": incendio["data_hora_inicio"].date(),
-            "municipio": incendio["municipio"],
-            "latitude": incendio["latitude"],
-            "longitude": incendio["longitude"],
-        })
-
-        continue
-
-    segmento = candidatos.iloc[0]
-
-    resultado.append({
-        "id_incendio": incendio["id"],
-        "segmento_id": segmento["segmento_id"],
-        "rodovia": incendio["rodovia"],
-        "km": incendio["km"],
-        "data_hora_inicio": incendio["data_hora_inicio"],
-        "data": incendio["data_hora_inicio"].date(),
-        "municipio": incendio["municipio"],
-        "latitude": incendio["latitude"],
-        "longitude": incendio["longitude"],
-    })
-
-
-resultado_df = pd.DataFrame(resultado)
+print(f"Segmentos carregados: {len(segmentos):,}")
 
 
 # ============================================================
-# DIAGNÓSTICO ANTES DE GRAVAR
+# CARREGA INCÊNDIOS
 # ============================================================
 
-total = len(resultado_df)
-segmentados = resultado_df["segmento_id"].notna().sum()
-nao_segmentados = resultado_df["segmento_id"].isna().sum()
+sql_incendios = """
+SELECT
+    id,
+    rodovia,
+    km,
+    data_hora_inicio,
+    municipio,
+    latitude,
+    longitude
+FROM tcc.incendios_raw
+WHERE
+    rodovia IS NOT NULL
+    AND km IS NOT NULL
+    AND data_hora_inicio IS NOT NULL;
+"""
 
-print("\nResultado:")
-print(f"Total analisado      : {total:,}")
-print(f"Segmentados          : {segmentados:,}")
-print(f"Não segmentados      : {nao_segmentados:,}")
+incendios = pd.read_sql(sql_incendios, engine)
 
 
-if nao_segmentados > 0:
+# ============================================================
+# NORMALIZA NOME DA RODOVIA
+# ============================================================
 
-    print("\nRegistros sem segmento:")
+def normalizar_rodovia(valor):
+    if valor is None:
+        return None
 
-    print(
-        resultado_df[
-            resultado_df["segmento_id"].isna()
-        ][
-            [
-                "id_incendio",
-                "rodovia",
-                "km",
-                "municipio",
-                "data_hora_inicio",
-            ]
-        ]
-        .head(50)
-        .to_string(index=False)
+    valor = str(valor).upper().strip()
+
+    somente_numeros = "".join(
+        caractere
+        for caractere in valor
+        if caractere.isdigit()
     )
 
+    if not somente_numeros:
+        return None
 
-# ============================================================
-# SEGURANÇA
-# ============================================================
+    try:
+        numero = int(somente_numeros)
+    except ValueError:
+        return None
 
-if nao_segmentados > 0:
-
-    print("\nATENÇÃO:")
-    print(
-        "Existem incêndios que não encontraram segmento."
-    )
-
-    print(
-        "Nenhum dado foi gravado no banco."
-    )
-
-    raise SystemExit(1)
+    return f"SP-{numero:03d}"
 
 
-# ============================================================
-# VERIFICAR SE DESTINO ESTÁ VAZIO
-# ============================================================
-
-with engine.connect() as conn:
-
-    qtd_destino = conn.execute(
-        text("""
-        SELECT COUNT(*)
-        FROM tcc.incendios_segmentados;
-        """)
-    ).scalar()
-
-print(f"\nRegistros atualmente no destino: {qtd_destino:,}")
-
-if qtd_destino > 0:
-
-    print("\nA tabela de destino já contém dados.")
-    print("Execução interrompida para evitar duplicação.")
-
-    raise SystemExit(1)
-
-
-# ============================================================
-# INSERIR DADOS
-# ============================================================
-
-dados_insercao = resultado_df[
-    [
-        "id_incendio",
-        "segmento_id",
-        "rodovia",
-        "km",
-        "data_hora_inicio",
-        "data",
-        "municipio",
-        "latitude",
-        "longitude",
-    ]
-].copy()
-
-
-dados_insercao.to_sql(
-    "incendios_segmentados",
-    engine,
-    schema="tcc",
-    if_exists="append",
-    index=False,
+incendios["rodovia_normalizada"] = incendios["rodovia"].apply(
+    normalizar_rodovia
 )
 
 
 # ============================================================
-# CRIAR GEOMETRIA A PARTIR DE LAT/LON
+# MANTÉM SOMENTE AS CINCO RODOVIAS DO ESTUDO
+# ============================================================
+
+incendios = incendios[
+    incendios["rodovia_normalizada"].isin(
+        faixas_rodovias.keys()
+    )
+].copy()
+
+print(f"Incêndios analisados: {len(incendios):,}")
+
+
+# ============================================================
+# SEGMENTAÇÃO
+# ============================================================
+
+registros_segmentados = []
+fora_area_estudo = []
+erros_segmentacao = []
+
+
+for _, incendio in incendios.iterrows():
+
+    rodovia = incendio["rodovia_normalizada"]
+    km = float(incendio["km"])
+
+    km_min, km_max = faixas_rodovias[rodovia]
+
+    # --------------------------------------------------------
+    # FORA DA ÁREA ANALÍTICA
+    # --------------------------------------------------------
+
+    if km < km_min or km >= km_max:
+
+        fora_area_estudo.append(
+            {
+                "id": incendio["id"],
+                "rodovia": rodovia,
+                "km": km,
+                "data_hora_inicio": incendio["data_hora_inicio"],
+                "municipio": incendio["municipio"],
+            }
+        )
+
+        continue
+
+
+    # --------------------------------------------------------
+    # PROCURA SEGMENTO
+    # --------------------------------------------------------
+
+    candidatos = segmentos[
+        (segmentos["rodovia"] == rodovia)
+        & (segmentos["km_inicio"] <= km)
+        & (segmentos["km_fim"] > km)
+    ]
+
+
+    # --------------------------------------------------------
+    # TRATAMENTO PARA KM EXATAMENTE IGUAL AO LIMITE FINAL
+    # --------------------------------------------------------
+
+    if candidatos.empty:
+
+        candidatos = segmentos[
+            (segmentos["rodovia"] == rodovia)
+            & (segmentos["km_fim"] == km)
+            & (segmentos["km_fim"] == km_max)
+        ]
+
+
+    # --------------------------------------------------------
+    # ERRO REAL DE SEGMENTAÇÃO
+    # --------------------------------------------------------
+
+    if candidatos.empty:
+
+        erros_segmentacao.append(
+            {
+                "id": incendio["id"],
+                "rodovia": rodovia,
+                "km": km,
+                "data_hora_inicio": incendio["data_hora_inicio"],
+                "municipio": incendio["municipio"],
+            }
+        )
+
+        continue
+
+
+    segmento = candidatos.iloc[0]
+
+
+    registros_segmentados.append(
+        {
+            "id_incendio": incendio["id"],
+            "segmento_id": segmento["segmento_id"],
+            "rodovia": rodovia,
+            "km": km,
+            "data_hora_inicio": incendio["data_hora_inicio"],
+            "data": pd.to_datetime(
+                incendio["data_hora_inicio"]
+            ).date(),
+            "municipio": incendio["municipio"],
+            "latitude": incendio["latitude"],
+            "longitude": incendio["longitude"],
+        }
+    )
+
+
+# ============================================================
+# RESUMO DA SEGMENTAÇÃO
+# ============================================================
+
+print("\nResumo:")
+
+print(f"Total analisado:        {len(incendios):,}")
+print(f"Segmentados:            {len(registros_segmentados):,}")
+print(f"Fora da área de estudo: {len(fora_area_estudo):,}")
+print(f"Erros de segmentação:   {len(erros_segmentacao):,}")
+
+
+# ============================================================
+# MOSTRA REGISTROS FORA DA ÁREA
+# ============================================================
+
+if fora_area_estudo:
+
+    print("\nRegistros fora da área de estudo:")
+
+    df_fora = pd.DataFrame(fora_area_estudo)
+
+    print(
+        df_fora.to_string(index=False)
+    )
+
+
+# ============================================================
+# INTERROMPE SOMENTE SE HOUVER ERRO REAL
+# ============================================================
+
+if erros_segmentacao:
+
+    print("\nERROS DE SEGMENTAÇÃO:")
+
+    df_erros = pd.DataFrame(erros_segmentacao)
+
+    print(
+        df_erros.to_string(index=False)
+    )
+
+    raise RuntimeError(
+        "Existem incêndios dentro da área de estudo "
+        "que não puderam ser associados a um segmento."
+    )
+
+
+# ============================================================
+# PREPARA DATAFRAME
+# ============================================================
+
+df_insert = pd.DataFrame(
+    registros_segmentados
+)
+
+
+if df_insert.empty:
+    raise RuntimeError(
+        "Nenhum incêndio foi segmentado."
+    )
+
+
+# ============================================================
+# INSERE NO BANCO
+# ============================================================
+
+print(
+    f"\nInserindo {len(df_insert):,} registros "
+    "em tcc.incendios_segmentados..."
+)
+
+
+df_insert.to_sql(
+    name="incendios_segmentados",
+    schema="tcc",
+    con=engine,
+    if_exists="append",
+    index=False,
+    method="multi",
+    chunksize=1000
+)
+
+
+# ============================================================
+# CRIA GEOMETRIA
 # ============================================================
 
 with engine.begin() as conn:
 
     conn.execute(
         text("""
-        UPDATE tcc.incendios_segmentados
-        SET geom =
-            ST_SetSRID(
-                ST_MakePoint(longitude, latitude),
-                4326
-            )
-        WHERE
-            longitude IS NOT NULL
-            AND latitude IS NOT NULL;
+            UPDATE tcc.incendios_segmentados
+            SET geom =
+                ST_SetSRID(
+                    ST_MakePoint(
+                        longitude,
+                        latitude
+                    ),
+                    4326
+                )
+            WHERE
+                longitude IS NOT NULL
+                AND latitude IS NOT NULL;
         """)
     )
 
 
 # ============================================================
-# RESUMO FINAL
+# VALIDAÇÃO FINAL
 # ============================================================
 
 resumo = pd.read_sql(
@@ -296,11 +372,24 @@ resumo = pd.read_sql(
 )
 
 
-print("\nResumo final:")
+print("\nResumo final por rodovia:")
 
 print(
     resumo.to_string(index=False)
 )
+
+
+with engine.connect() as conn:
+
+    total_final = conn.execute(
+        text("""
+            SELECT COUNT(*)
+            FROM tcc.incendios_segmentados;
+        """)
+    ).scalar()
+
+
+print(f"\nTotal inserido: {total_final:,}")
 
 
 print("\n" + "=" * 75)
