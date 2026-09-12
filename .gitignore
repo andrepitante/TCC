@@ -23,8 +23,8 @@ data/*.csv
 data/*.xlsx
 
 # Modelos treinados, se ficarem grandes
-*.keras
-*.h5
+#*.keras
+#*.h5
 
 # Arquivos temporários
 *.tmp

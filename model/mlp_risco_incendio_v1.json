@@ -1,0 +1,44 @@
+{
+    "versao": "v1",
+    "horizonte_horas": 4,
+    "features": [
+        "temperatura_atual",
+        "umidade_atual",
+        "precipitacao_atual",
+        "vento_atual",
+        "rajada_atual",
+        "temperatura_media_24h",
+        "temperatura_max_24h",
+        "umidade_media_24h",
+        "umidade_min_24h",
+        "vento_medio_24h",
+        "rajada_max_24h",
+        "chuva_24h",
+        "horas_com_chuva_24h",
+        "chuva_72h",
+        "horas_com_chuva_72h",
+        "chuva_168h",
+        "horas_sem_chuva_ate_168h"
+    ],
+    "faixas_risco": {
+        "baixo": [
+            0.0,
+            0.15
+        ],
+        "moderado": [
+            0.15,
+            0.25
+        ],
+        "elevado": [
+            0.25,
+            0.4
+        ],
+        "muito_elevado": [
+            0.4,
+            1.0
+        ]
+    },
+    "treino": "2015-2023",
+    "validacao": "2024",
+    "teste": "2025-2026"
+}
