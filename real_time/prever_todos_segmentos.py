@@ -732,13 +732,13 @@ features["score_risco"] = scores
 
 def classificar_risco(score):
 
-    if score < 0.15:
+    if score < 0.20:
         return "BAIXO"
 
-    if score < 0.25:
+    if score < 0.35:
         return "MODERADO"
 
-    if score < 0.40:
+    if score < 0.42:
         return "ELEVADO"
 
     return "MUITO ELEVADO"

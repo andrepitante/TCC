@@ -288,6 +288,10 @@ mapa = folium.Map(
     control_scale=True
 )
 
+# ============================================================
+# MAPAS BASE
+# ============================================================
+
 folium.TileLayer(
     tiles=(
         "https://server.arcgisonline.com/ArcGIS/rest/services/"
@@ -296,7 +300,20 @@ folium.TileLayer(
     attr="Esri",
     name="Esri World Topo Map",
     overlay=False,
-    control=True
+    control=True,
+    show=True
+).add_to(mapa)
+
+folium.TileLayer(
+    tiles=(
+        "https://server.arcgisonline.com/ArcGIS/rest/services/"
+        "World_Street_Map/MapServer/tile/{z}/{y}/{x}"
+    ),
+    attr="Esri",
+    name="Esri World Street Map",
+    overlay=False,
+    control=True,
+    show=False
 ).add_to(mapa)
 
 # =============================================================================
@@ -357,6 +374,7 @@ for _, linha in dados.iterrows():
 
 # =============================================================================
 # DESENHAR TRECHOS ENTRE OS SEGMENTOS
+# CADA RODOVIA EM UMA CAMADA INDEPENDENTE
 # =============================================================================
 
 dados["numero_segmento"] = (
@@ -371,9 +389,29 @@ dados = dados.sort_values(
 
 for rodovia, grupo in dados.groupby("rodovia"):
 
+    # -------------------------------------------------------------------------
+    # Criar uma camada independente para cada rodovia
+    # -------------------------------------------------------------------------
+
+    camada_rodovia = folium.FeatureGroup(
+        name=f"Rodovia {rodovia}",
+        overlay=True,
+        show=True
+    )
+
+    camada_rodovia.add_to(mapa)
+
+    # -------------------------------------------------------------------------
+    # Ordenar segmentos da rodovia
+    # -------------------------------------------------------------------------
+
     grupo = grupo.sort_values("numero_segmento")
 
     registros = list(grupo.to_dict("records"))
+
+    # -------------------------------------------------------------------------
+    # Desenhar os segmentos
+    # -------------------------------------------------------------------------
 
     for i in range(len(registros) - 1):
 
@@ -435,8 +473,9 @@ for rodovia, grupo in dados.groupby("rodovia"):
                 max_width=350
             )
 
-        ).add_to(mapa)
-        
+        ).add_to(camada_rodovia)
+
+
 # =============================================================================
 # CARREGAR ESTAÇÕES METEOROLÓGICAS
 # =============================================================================

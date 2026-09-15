@@ -427,7 +427,7 @@
     "segmento_id":"SP021_SEG016",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -435,7 +435,7 @@
     "segmento_id":"SP021_SEG013",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -443,7 +443,7 @@
     "segmento_id":"SP021_SEG019",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -451,7 +451,7 @@
     "segmento_id":"SP021_SEG012",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -459,7 +459,7 @@
     "segmento_id":"SP021_SEG009",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -467,7 +467,7 @@
     "segmento_id":"SP021_SEG011",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -475,7 +475,7 @@
     "segmento_id":"SP021_SEG015",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -483,7 +483,7 @@
     "segmento_id":"SP021_SEG014",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -491,7 +491,7 @@
     "segmento_id":"SP021_SEG018",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -499,7 +499,7 @@
     "segmento_id":"SP021_SEG017",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -507,7 +507,7 @@
     "segmento_id":"SP021_SEG010",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -515,7 +515,7 @@
     "segmento_id":"SP021_SEG008",
     "rodovia":"SP-021",
     "score_risco":0.3441107273,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -523,7 +523,7 @@
     "segmento_id":"SP330_SEG014",
     "rodovia":"SP-330",
     "score_risco":0.337618053,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -531,7 +531,7 @@
     "segmento_id":"SP330_SEG015",
     "rodovia":"SP-330",
     "score_risco":0.337618053,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -539,7 +539,7 @@
     "segmento_id":"SP348_SEG015",
     "rodovia":"SP-348",
     "score_risco":0.337618053,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -547,7 +547,7 @@
     "segmento_id":"SP348_SEG016",
     "rodovia":"SP-348",
     "score_risco":0.337618053,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -555,7 +555,7 @@
     "segmento_id":"SP330_SEG016",
     "rodovia":"SP-330",
     "score_risco":0.337618053,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -563,7 +563,7 @@
     "segmento_id":"SP330_SEG017",
     "rodovia":"SP-330",
     "score_risco":0.337618053,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -571,7 +571,7 @@
     "segmento_id":"SP330_SEG013",
     "rodovia":"SP-330",
     "score_risco":0.337618053,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -579,7 +579,7 @@
     "segmento_id":"SP021_SEG006",
     "rodovia":"SP-021",
     "score_risco":0.3279913664,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -587,7 +587,7 @@
     "segmento_id":"SP021_SEG007",
     "rodovia":"SP-021",
     "score_risco":0.3279913664,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -595,7 +595,7 @@
     "segmento_id":"SP348_SEG012",
     "rodovia":"SP-348",
     "score_risco":0.3276964724,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -603,7 +603,7 @@
     "segmento_id":"SP348_SEG011",
     "rodovia":"SP-348",
     "score_risco":0.3276964724,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -611,7 +611,7 @@
     "segmento_id":"SP330_SEG011",
     "rodovia":"SP-330",
     "score_risco":0.3276964724,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -619,7 +619,7 @@
     "segmento_id":"SP330_SEG012",
     "rodovia":"SP-330",
     "score_risco":0.3276964724,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -627,7 +627,7 @@
     "segmento_id":"SP348_SEG013",
     "rodovia":"SP-348",
     "score_risco":0.3276964724,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -635,7 +635,7 @@
     "segmento_id":"SP348_SEG014",
     "rodovia":"SP-348",
     "score_risco":0.3276964724,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -643,7 +643,7 @@
     "segmento_id":"SP348_SEG017",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -651,7 +651,7 @@
     "segmento_id":"SP300_SEG025",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -659,7 +659,7 @@
     "segmento_id":"SP300_SEG026",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -667,7 +667,7 @@
     "segmento_id":"SP330_SEG032",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -675,7 +675,7 @@
     "segmento_id":"SP348_SEG033",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -683,7 +683,7 @@
     "segmento_id":"SP300_SEG028",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -691,7 +691,7 @@
     "segmento_id":"SP300_SEG029",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -699,7 +699,7 @@
     "segmento_id":"SP300_SEG027",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -707,7 +707,7 @@
     "segmento_id":"SP300_SEG030",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -715,7 +715,7 @@
     "segmento_id":"SP348_SEG022",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -723,7 +723,7 @@
     "segmento_id":"SP348_SEG019",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -731,7 +731,7 @@
     "segmento_id":"SP348_SEG020",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -739,7 +739,7 @@
     "segmento_id":"SP348_SEG021",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -747,7 +747,7 @@
     "segmento_id":"SP348_SEG024",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -755,7 +755,7 @@
     "segmento_id":"SP348_SEG023",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -763,7 +763,7 @@
     "segmento_id":"SP330_SEG027",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -771,7 +771,7 @@
     "segmento_id":"SP330_SEG026",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -779,7 +779,7 @@
     "segmento_id":"SP330_SEG033",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -787,7 +787,7 @@
     "segmento_id":"SP330_SEG034",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -795,7 +795,7 @@
     "segmento_id":"SP330_SEG035",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -803,7 +803,7 @@
     "segmento_id":"SP330_SEG028",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -811,7 +811,7 @@
     "segmento_id":"SP330_SEG029",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -819,7 +819,7 @@
     "segmento_id":"SP330_SEG030",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -827,7 +827,7 @@
     "segmento_id":"SP330_SEG031",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -835,7 +835,7 @@
     "segmento_id":"SP330_SEG025",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -843,7 +843,7 @@
     "segmento_id":"SP348_SEG026",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -851,7 +851,7 @@
     "segmento_id":"SP348_SEG027",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -859,7 +859,7 @@
     "segmento_id":"SP348_SEG028",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -867,7 +867,7 @@
     "segmento_id":"SP348_SEG029",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -875,7 +875,7 @@
     "segmento_id":"SP348_SEG030",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -883,7 +883,7 @@
     "segmento_id":"SP348_SEG031",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -891,7 +891,7 @@
     "segmento_id":"SP348_SEG032",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -899,7 +899,7 @@
     "segmento_id":"SP348_SEG025",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -907,7 +907,7 @@
     "segmento_id":"SP330_SEG022",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -915,7 +915,7 @@
     "segmento_id":"SP330_SEG019",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -923,7 +923,7 @@
     "segmento_id":"SP330_SEG021",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -931,7 +931,7 @@
     "segmento_id":"SP330_SEG020",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -939,7 +939,7 @@
     "segmento_id":"SP330_SEG024",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -947,7 +947,7 @@
     "segmento_id":"SP330_SEG023",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -955,7 +955,7 @@
     "segmento_id":"SP330_SEG018",
     "rodovia":"SP-330",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -963,7 +963,7 @@
     "segmento_id":"SP348_SEG018",
     "rodovia":"SP-348",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -971,7 +971,7 @@
     "segmento_id":"SP300_SEG032",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -979,7 +979,7 @@
     "segmento_id":"SP300_SEG031",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -987,7 +987,7 @@
     "segmento_id":"SP300_SEG023",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -995,7 +995,7 @@
     "segmento_id":"SP300_SEG024",
     "rodovia":"SP-300",
     "score_risco":0.3057440221,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1003,7 +1003,7 @@
     "segmento_id":"SP280_SEG033",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1011,7 +1011,7 @@
     "segmento_id":"SP280_SEG032",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1019,7 +1019,7 @@
     "segmento_id":"SP280_SEG031",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1027,7 +1027,7 @@
     "segmento_id":"SP280_SEG030",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1035,7 +1035,7 @@
     "segmento_id":"SP280_SEG022",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1043,7 +1043,7 @@
     "segmento_id":"SP280_SEG025",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1051,7 +1051,7 @@
     "segmento_id":"SP280_SEG012",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1059,7 +1059,7 @@
     "segmento_id":"SP280_SEG013",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1067,7 +1067,7 @@
     "segmento_id":"SP280_SEG028",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1075,7 +1075,7 @@
     "segmento_id":"SP280_SEG029",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1083,7 +1083,7 @@
     "segmento_id":"SP280_SEG027",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1091,7 +1091,7 @@
     "segmento_id":"SP280_SEG026",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1099,7 +1099,7 @@
     "segmento_id":"SP280_SEG017",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1107,7 +1107,7 @@
     "segmento_id":"SP300_SEG014",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1115,7 +1115,7 @@
     "segmento_id":"SP300_SEG013",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1123,7 +1123,7 @@
     "segmento_id":"SP300_SEG016",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1131,7 +1131,7 @@
     "segmento_id":"SP300_SEG019",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1139,7 +1139,7 @@
     "segmento_id":"SP300_SEG009",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1147,7 +1147,7 @@
     "segmento_id":"SP300_SEG010",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1155,7 +1155,7 @@
     "segmento_id":"SP300_SEG008",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1163,7 +1163,7 @@
     "segmento_id":"SP300_SEG015",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1171,7 +1171,7 @@
     "segmento_id":"SP300_SEG018",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1179,7 +1179,7 @@
     "segmento_id":"SP300_SEG017",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1187,7 +1187,7 @@
     "segmento_id":"SP300_SEG011",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1195,7 +1195,7 @@
     "segmento_id":"SP280_SEG016",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1203,7 +1203,7 @@
     "segmento_id":"SP280_SEG015",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1211,7 +1211,7 @@
     "segmento_id":"SP280_SEG014",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1219,7 +1219,7 @@
     "segmento_id":"SP280_SEG020",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1227,7 +1227,7 @@
     "segmento_id":"SP300_SEG020",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1235,7 +1235,7 @@
     "segmento_id":"SP300_SEG021",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1243,7 +1243,7 @@
     "segmento_id":"SP300_SEG022",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1251,7 +1251,7 @@
     "segmento_id":"SP280_SEG023",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1259,7 +1259,7 @@
     "segmento_id":"SP280_SEG019",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1267,7 +1267,7 @@
     "segmento_id":"SP280_SEG021",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1275,7 +1275,7 @@
     "segmento_id":"SP280_SEG024",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1283,7 +1283,7 @@
     "segmento_id":"SP300_SEG012",
     "rodovia":"SP-300",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1291,7 +1291,7 @@
     "segmento_id":"SP280_SEG018",
     "rodovia":"SP-280",
     "score_risco":0.2867380977,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1299,7 +1299,7 @@
     "segmento_id":"SP021_SEG025",
     "rodovia":"SP-021",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1307,7 +1307,7 @@
     "segmento_id":"SP021_SEG020",
     "rodovia":"SP-021",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1315,7 +1315,7 @@
     "segmento_id":"SP021_SEG023",
     "rodovia":"SP-021",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1323,7 +1323,7 @@
     "segmento_id":"SP021_SEG026",
     "rodovia":"SP-021",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1331,7 +1331,7 @@
     "segmento_id":"SP021_SEG021",
     "rodovia":"SP-021",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1339,7 +1339,7 @@
     "segmento_id":"SP021_SEG024",
     "rodovia":"SP-021",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1347,7 +1347,7 @@
     "segmento_id":"SP021_SEG027",
     "rodovia":"SP-021",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1355,7 +1355,7 @@
     "segmento_id":"SP348_SEG001",
     "rodovia":"SP-348",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1363,7 +1363,7 @@
     "segmento_id":"SP348_SEG002",
     "rodovia":"SP-348",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1371,7 +1371,7 @@
     "segmento_id":"SP021_SEG022",
     "rodovia":"SP-021",
     "score_risco":0.278006047,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1379,7 +1379,7 @@
     "segmento_id":"SP300_SEG093",
     "rodovia":"SP-300",
     "score_risco":0.2766670883,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1387,7 +1387,7 @@
     "segmento_id":"SP300_SEG092",
     "rodovia":"SP-300",
     "score_risco":0.2766670883,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1395,7 +1395,7 @@
     "segmento_id":"SP300_SEG091",
     "rodovia":"SP-300",
     "score_risco":0.2766670883,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1403,7 +1403,7 @@
     "segmento_id":"SP300_SEG033",
     "rodovia":"SP-300",
     "score_risco":0.2691365182,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1411,7 +1411,7 @@
     "segmento_id":"SP300_SEG083",
     "rodovia":"SP-300",
     "score_risco":0.2678152919,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1419,7 +1419,7 @@
     "segmento_id":"SP300_SEG085",
     "rodovia":"SP-300",
     "score_risco":0.2678152919,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1427,7 +1427,7 @@
     "segmento_id":"SP300_SEG082",
     "rodovia":"SP-300",
     "score_risco":0.2678152919,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1435,7 +1435,7 @@
     "segmento_id":"SP300_SEG086",
     "rodovia":"SP-300",
     "score_risco":0.2678152919,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1443,7 +1443,7 @@
     "segmento_id":"SP300_SEG084",
     "rodovia":"SP-300",
     "score_risco":0.2678152919,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1451,7 +1451,7 @@
     "segmento_id":"SP348_SEG008",
     "rodovia":"SP-348",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1459,7 +1459,7 @@
     "segmento_id":"SP021_SEG001",
     "rodovia":"SP-021",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1467,7 +1467,7 @@
     "segmento_id":"SP021_SEG003",
     "rodovia":"SP-021",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1475,7 +1475,7 @@
     "segmento_id":"SP021_SEG004",
     "rodovia":"SP-021",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1483,7 +1483,7 @@
     "segmento_id":"SP300_SEG003",
     "rodovia":"SP-300",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1491,7 +1491,7 @@
     "segmento_id":"SP300_SEG001",
     "rodovia":"SP-300",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1499,7 +1499,7 @@
     "segmento_id":"SP300_SEG002",
     "rodovia":"SP-300",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1507,7 +1507,7 @@
     "segmento_id":"SP280_SEG006",
     "rodovia":"SP-280",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1515,7 +1515,7 @@
     "segmento_id":"SP280_SEG007",
     "rodovia":"SP-280",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1523,7 +1523,7 @@
     "segmento_id":"SP280_SEG008",
     "rodovia":"SP-280",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1531,7 +1531,7 @@
     "segmento_id":"SP280_SEG003",
     "rodovia":"SP-280",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1539,7 +1539,7 @@
     "segmento_id":"SP348_SEG003",
     "rodovia":"SP-348",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1547,7 +1547,7 @@
     "segmento_id":"SP348_SEG004",
     "rodovia":"SP-348",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1555,7 +1555,7 @@
     "segmento_id":"SP280_SEG004",
     "rodovia":"SP-280",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1563,7 +1563,7 @@
     "segmento_id":"SP280_SEG005",
     "rodovia":"SP-280",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1571,7 +1571,7 @@
     "segmento_id":"SP280_SEG002",
     "rodovia":"SP-280",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1579,7 +1579,7 @@
     "segmento_id":"SP280_SEG009",
     "rodovia":"SP-280",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1587,7 +1587,7 @@
     "segmento_id":"SP348_SEG007",
     "rodovia":"SP-348",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1595,7 +1595,7 @@
     "segmento_id":"SP348_SEG006",
     "rodovia":"SP-348",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1603,7 +1603,7 @@
     "segmento_id":"SP348_SEG005",
     "rodovia":"SP-348",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1611,7 +1611,7 @@
     "segmento_id":"SP021_SEG005",
     "rodovia":"SP-021",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1619,7 +1619,7 @@
     "segmento_id":"SP021_SEG002",
     "rodovia":"SP-021",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1627,7 +1627,7 @@
     "segmento_id":"SP348_SEG010",
     "rodovia":"SP-348",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1635,7 +1635,7 @@
     "segmento_id":"SP348_SEG009",
     "rodovia":"SP-348",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1643,7 +1643,7 @@
     "segmento_id":"SP300_SEG004",
     "rodovia":"SP-300",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1651,7 +1651,7 @@
     "segmento_id":"SP330_SEG002",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1659,7 +1659,7 @@
     "segmento_id":"SP330_SEG001",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1667,7 +1667,7 @@
     "segmento_id":"SP330_SEG008",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1675,7 +1675,7 @@
     "segmento_id":"SP330_SEG009",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1683,7 +1683,7 @@
     "segmento_id":"SP330_SEG010",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1691,7 +1691,7 @@
     "segmento_id":"SP330_SEG003",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1699,7 +1699,7 @@
     "segmento_id":"SP330_SEG004",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1707,7 +1707,7 @@
     "segmento_id":"SP330_SEG005",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1715,7 +1715,7 @@
     "segmento_id":"SP330_SEG006",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1723,7 +1723,7 @@
     "segmento_id":"SP330_SEG007",
     "rodovia":"SP-330",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1731,7 +1731,7 @@
     "segmento_id":"SP280_SEG001",
     "rodovia":"SP-280",
     "score_risco":0.2601590157,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1739,7 +1739,7 @@
     "segmento_id":"SP300_SEG088",
     "rodovia":"SP-300",
     "score_risco":0.2520565987,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1747,7 +1747,7 @@
     "segmento_id":"SP300_SEG089",
     "rodovia":"SP-300",
     "score_risco":0.2520565987,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1755,7 +1755,7 @@
     "segmento_id":"SP300_SEG090",
     "rodovia":"SP-300",
     "score_risco":0.2520565987,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1763,7 +1763,7 @@
     "segmento_id":"SP300_SEG087",
     "rodovia":"SP-300",
     "score_risco":0.2520565987,
-    "nivel_risco":"ELEVADO",
+    "nivel_risco":"MODERADO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1899,7 +1899,7 @@
     "segmento_id":"SP300_SEG112",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1907,7 +1907,7 @@
     "segmento_id":"SP300_SEG111",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1915,7 +1915,7 @@
     "segmento_id":"SP300_SEG110",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1923,7 +1923,7 @@
     "segmento_id":"SP300_SEG107",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1931,7 +1931,7 @@
     "segmento_id":"SP300_SEG115",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1939,7 +1939,7 @@
     "segmento_id":"SP300_SEG113",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1947,7 +1947,7 @@
     "segmento_id":"SP300_SEG114",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1955,7 +1955,7 @@
     "segmento_id":"SP300_SEG097",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1963,7 +1963,7 @@
     "segmento_id":"SP300_SEG098",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1971,7 +1971,7 @@
     "segmento_id":"SP300_SEG096",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1979,7 +1979,7 @@
     "segmento_id":"SP300_SEG095",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1987,7 +1987,7 @@
     "segmento_id":"SP300_SEG099",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -1995,7 +1995,7 @@
     "segmento_id":"SP300_SEG116",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2003,7 +2003,7 @@
     "segmento_id":"SP300_SEG117",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2011,7 +2011,7 @@
     "segmento_id":"SP300_SEG118",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2019,7 +2019,7 @@
     "segmento_id":"SP300_SEG108",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2027,7 +2027,7 @@
     "segmento_id":"SP300_SEG094",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2035,7 +2035,7 @@
     "segmento_id":"SP300_SEG121",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2043,7 +2043,7 @@
     "segmento_id":"SP300_SEG120",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2051,7 +2051,7 @@
     "segmento_id":"SP300_SEG119",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2059,7 +2059,7 @@
     "segmento_id":"SP300_SEG101",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2067,7 +2067,7 @@
     "segmento_id":"SP300_SEG105",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2075,7 +2075,7 @@
     "segmento_id":"SP300_SEG104",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2083,7 +2083,7 @@
     "segmento_id":"SP300_SEG100",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2091,7 +2091,7 @@
     "segmento_id":"SP300_SEG109",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2099,7 +2099,7 @@
     "segmento_id":"SP300_SEG106",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2107,7 +2107,7 @@
     "segmento_id":"SP300_SEG122",
     "rodovia":"SP-300",
     "score_risco":0.1877912432,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2115,7 +2115,7 @@
     "segmento_id":"SP300_SEG102",
     "rodovia":"SP-300",
     "score_risco":0.1877912134,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2123,7 +2123,7 @@
     "segmento_id":"SP300_SEG103",
     "rodovia":"SP-300",
     "score_risco":0.1877912134,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2131,7 +2131,7 @@
     "segmento_id":"SP300_SEG041",
     "rodovia":"SP-300",
     "score_risco":0.1752108335,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2139,7 +2139,7 @@
     "segmento_id":"SP300_SEG035",
     "rodovia":"SP-300",
     "score_risco":0.1752108335,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2147,7 +2147,7 @@
     "segmento_id":"SP300_SEG044",
     "rodovia":"SP-300",
     "score_risco":0.1752108335,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2155,7 +2155,7 @@
     "segmento_id":"SP300_SEG034",
     "rodovia":"SP-300",
     "score_risco":0.1752108335,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2163,7 +2163,7 @@
     "segmento_id":"SP300_SEG042",
     "rodovia":"SP-300",
     "score_risco":0.1752108335,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2171,7 +2171,7 @@
     "segmento_id":"SP300_SEG043",
     "rodovia":"SP-300",
     "score_risco":0.1752108335,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2179,7 +2179,7 @@
     "segmento_id":"SP300_SEG036",
     "rodovia":"SP-300",
     "score_risco":0.1752108335,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2187,7 +2187,7 @@
     "segmento_id":"SP300_SEG040",
     "rodovia":"SP-300",
     "score_risco":0.1752108335,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2195,7 +2195,7 @@
     "segmento_id":"SP300_SEG037",
     "rodovia":"SP-300",
     "score_risco":0.1752108335,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2203,7 +2203,7 @@
     "segmento_id":"SP300_SEG039",
     "rodovia":"SP-300",
     "score_risco":0.1752108037,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2211,7 +2211,7 @@
     "segmento_id":"SP300_SEG038",
     "rodovia":"SP-300",
     "score_risco":0.1752108037,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2219,7 +2219,7 @@
     "segmento_id":"SP300_SEG045",
     "rodovia":"SP-300",
     "score_risco":0.1724746227,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2227,7 +2227,7 @@
     "segmento_id":"SP300_SEG049",
     "rodovia":"SP-300",
     "score_risco":0.1724746227,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2235,7 +2235,7 @@
     "segmento_id":"SP300_SEG046",
     "rodovia":"SP-300",
     "score_risco":0.1724746227,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2243,7 +2243,7 @@
     "segmento_id":"SP300_SEG047",
     "rodovia":"SP-300",
     "score_risco":0.1724746227,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2251,7 +2251,7 @@
     "segmento_id":"SP300_SEG048",
     "rodovia":"SP-300",
     "score_risco":0.1724746227,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2259,7 +2259,7 @@
     "segmento_id":"SP280_SEG043",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2267,7 +2267,7 @@
     "segmento_id":"SP280_SEG056",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2275,7 +2275,7 @@
     "segmento_id":"SP280_SEG047",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2283,7 +2283,7 @@
     "segmento_id":"SP280_SEG042",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2291,7 +2291,7 @@
     "segmento_id":"SP280_SEG036",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2299,7 +2299,7 @@
     "segmento_id":"SP280_SEG037",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2307,7 +2307,7 @@
     "segmento_id":"SP280_SEG053",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2315,7 +2315,7 @@
     "segmento_id":"SP280_SEG054",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2323,7 +2323,7 @@
     "segmento_id":"SP280_SEG051",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2331,7 +2331,7 @@
     "segmento_id":"SP280_SEG052",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2339,7 +2339,7 @@
     "segmento_id":"SP280_SEG057",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2347,7 +2347,7 @@
     "segmento_id":"SP280_SEG058",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2355,7 +2355,7 @@
     "segmento_id":"SP280_SEG059",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2363,7 +2363,7 @@
     "segmento_id":"SP280_SEG060",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2371,7 +2371,7 @@
     "segmento_id":"SP280_SEG035",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2379,7 +2379,7 @@
     "segmento_id":"SP280_SEG034",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2387,7 +2387,7 @@
     "segmento_id":"SP280_SEG055",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2395,7 +2395,7 @@
     "segmento_id":"SP280_SEG050",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2403,7 +2403,7 @@
     "segmento_id":"SP280_SEG049",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2411,7 +2411,7 @@
     "segmento_id":"SP280_SEG046",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2419,7 +2419,7 @@
     "segmento_id":"SP280_SEG044",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2427,7 +2427,7 @@
     "segmento_id":"SP280_SEG045",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2435,7 +2435,7 @@
     "segmento_id":"SP280_SEG040",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2443,7 +2443,7 @@
     "segmento_id":"SP280_SEG041",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2451,7 +2451,7 @@
     "segmento_id":"SP280_SEG038",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2459,7 +2459,7 @@
     "segmento_id":"SP280_SEG039",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2467,7 +2467,7 @@
     "segmento_id":"SP280_SEG048",
     "rodovia":"SP-280",
     "score_risco":0.1691944003,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2475,7 +2475,7 @@
     "segmento_id":"SP280_SEG061",
     "rodovia":"SP-280",
     "score_risco":0.1673724353,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2483,7 +2483,7 @@
     "segmento_id":"SP280_SEG062",
     "rodovia":"SP-280",
     "score_risco":0.1673724353,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2491,7 +2491,7 @@
     "segmento_id":"SP300_SEG080",
     "rodovia":"SP-300",
     "score_risco":0.1665340215,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2499,7 +2499,7 @@
     "segmento_id":"SP300_SEG081",
     "rodovia":"SP-300",
     "score_risco":0.1665340215,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2507,7 +2507,7 @@
     "segmento_id":"SP300_SEG079",
     "rodovia":"SP-300",
     "score_risco":0.1665340215,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2515,7 +2515,7 @@
     "segmento_id":"SP300_SEG052",
     "rodovia":"SP-300",
     "score_risco":0.156730473,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2523,7 +2523,7 @@
     "segmento_id":"SP300_SEG053",
     "rodovia":"SP-300",
     "score_risco":0.156730473,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2531,7 +2531,7 @@
     "segmento_id":"SP300_SEG050",
     "rodovia":"SP-300",
     "score_risco":0.156730473,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2539,7 +2539,7 @@
     "segmento_id":"SP300_SEG051",
     "rodovia":"SP-300",
     "score_risco":0.156730473,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2547,7 +2547,7 @@
     "segmento_id":"SP300_SEG055",
     "rodovia":"SP-300",
     "score_risco":0.156730473,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2555,7 +2555,7 @@
     "segmento_id":"SP300_SEG054",
     "rodovia":"SP-300",
     "score_risco":0.156730473,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2563,7 +2563,7 @@
     "segmento_id":"SP300_SEG057",
     "rodovia":"SP-300",
     "score_risco":0.156730473,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
@@ -2571,7 +2571,7 @@
     "segmento_id":"SP300_SEG056",
     "rodovia":"SP-300",
     "score_risco":0.156730473,
-    "nivel_risco":"MODERADO",
+    "nivel_risco":"BAIXO",
     "hora_referencia":"2026-05-15T14:00:00.000",
     "horizonte_horas":4
   },
